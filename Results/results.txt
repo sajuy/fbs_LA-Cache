@@ -1,0 +1,1394 @@
+candy@ubuntu:~/Desktop/fbs$ python3 ./Simulator/Runs.py
+* There are 246 commands in total
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 1461173
+Full Hit: 512808
+Delayed Hit: 204
+Miss: 486988
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 1445946
+Full Hit: 517879
+Delayed Hit: 217
+Miss: 481904
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 1534876
+Full Hit: 488206
+Delayed Hit: 258
+Miss: 511536
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 1762157
+Full Hit: 412281
+Delayed Hit: 503
+Miss: 587216
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 1029777
+Full Hit: 656654
+Delayed Hit: 138
+Miss: 343208
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 2596771
+Full Hit: 129169
+Delayed Hit: 7809
+Miss: 863022
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 5845594
+Full Hit: 512572
+Delayed Hit: 552
+Miss: 486876
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 5781990
+Full Hit: 517896
+Delayed Hit: 537
+Miss: 481567
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 6119412
+Full Hit: 489703
+Delayed Hit: 657
+Miss: 509640
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 7046036
+Full Hit: 412091
+Delayed Hit: 1370
+Miss: 586539
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 4118399
+Full Hit: 656608
+Delayed Hit: 368
+Miss: 343024
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 9986562
+Full Hit: 162520
+Delayed Hit: 5855
+Miss: 831625
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 49536620
+Full Hit: 512155
+Delayed Hit: 4305
+Miss: 483540
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 48966830
+Full Hit: 517776
+Delayed Hit: 4212
+Miss: 478012
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 50565239
+Full Hit: 501932
+Delayed Hit: 4545
+Miss: 493523
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 59666874
+Full Hit: 409644
+Delayed Hit: 10520
+Miss: 579836
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 34956705
+Full Hit: 655810
+Delayed Hit: 2896
+Miss: 341294
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 77836574
+Full Hit: 233751
+Delayed Hit: 3430
+Miss: 762819
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 473118898
+Full Hit: 508883
+Delayed Hit: 37772
+Miss: 453345
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 465371696
+Full Hit: 517592
+Delayed Hit: 35863
+Miss: 446545
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 474344044
+Full Hit: 507427
+Delayed Hit: 38281
+Miss: 454292
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 567198781
+Full Hit: 392879
+Delayed Hit: 82075
+Miss: 525046
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 339196200
+Full Hit: 648348
+Delayed Hit: 26225
+Miss: 325427
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 1000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=1000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 604792631
+Full Hit: 395161
+Delayed Hit: 1826
+Miss: 603013
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 920662247
+Full Hit: 505573
+Delayed Hit: 69010
+Miss: 425417
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 900865710
+Full Hit: 517491
+Delayed Hit: 64788
+Miss: 417721
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 932648719
+Full Hit: 497288
+Delayed Hit: 73502
+Miss: 429210
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 1099746597
+Full Hit: 381501
+Delayed Hit: 138199
+Miss: 480300
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 669637080
+Full Hit: 641004
+Delayed Hit: 48942
+Miss: 310054
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 2000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=2000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 1074231195
+Full Hit: 452997
+Delayed Hit: 12005
+Miss: 534998
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 2158112526
+Full Hit: 498954
+Delayed Hit: 139242
+Miss: 361804
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 2096149895
+Full Hit: 516965
+Delayed Hit: 127968
+Miss: 355067
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 2200271170
+Full Hit: 485538
+Delayed Hit: 149378
+Miss: 365084
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 2568993764
+Full Hit: 365611
+Delayed Hit: 241620
+Miss: 392769
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 1626756896
+Full Hit: 622827
+Delayed Hit: 103917
+Miss: 273256
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 5000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=5000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 2273959408
+Full Hit: 466737
+Delayed Hit: 109798
+Miss: 423465
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 4027622737
+Full Hit: 489517
+Delayed Hit: 216153
+Miss: 294330
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 3861320844
+Full Hit: 516920
+Delayed Hit: 194286
+Miss: 288794
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 4067294044
+Full Hit: 481861
+Delayed Hit: 223135
+Miss: 295004
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 4768791179
+Full Hit: 356725
+Delayed Hit: 333026
+Miss: 310249
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 3144434570
+Full Hit: 601436
+Delayed Hit: 168241
+Miss: 230323
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 10000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=10000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 3922609266
+Full Hit: 502070
+Delayed Hit: 175808
+Miss: 322122
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 7430455173
+Full Hit: 476156
+Delayed Hit: 305661
+Miss: 218183
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 7045098124
+Full Hit: 511212
+Delayed Hit: 274044
+Miss: 214744
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 7415376274
+Full Hit: 477299
+Delayed Hit: 305051
+Miss: 217650
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 8697019811
+Full Hit: 356432
+Delayed Hit: 418966
+Miss: 224602
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 6054620035
+Full Hit: 573832
+Delayed Hit: 247922
+Miss: 178246
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 20000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=20000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 6774848914
+Full Hit: 527686
+Delayed Hit: 246230
+Miss: 226084
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 17052336420
+Full Hit: 447587
+Delayed Hit: 425235
+Miss: 127178
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 15662515703
+Full Hit: 501364
+Delayed Hit: 373130
+Miss: 125506
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 16595313930
+Full Hit: 465149
+Delayed Hit: 408497
+Miss: 126354
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 19222433121
+Full Hit: 362018
+Delayed Hit: 509729
+Miss: 128253
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 14615771011
+Full Hit: 528213
+Delayed Hit: 361506
+Miss: 110281
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 50000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=50000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 14756739833
+Full Hit: 529023
+Delayed Hit: 344205
+Miss: 126772
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_2q --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: TwoQCache
+Total latency: 34565159330
+Full Hit: 392545
+Delayed Hit: 529989
+Miss: 77466
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lruk --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUKCache
+Total latency: 30394134011
+Full Hit: 474691
+Delayed Hit: 448863
+Miss: 76446
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lhd --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LHDCache
+Total latency: 32100654323
+Full Hit: 441422
+Delayed Hit: 481944
+Miss: 76634
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_lru --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: LRUCache
+Total latency: 36887570159
+Full Hit: 346624
+Delayed Hit: 576203
+Miss: 77173
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_belady --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Trace Size:1000000
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: BeladyCache
+Total latency: 29793250774
+Full Hit: 480197
+Delayed Hit: 449928
+Miss: 69875
+--------------------
+
+/home/candy/Desktop/fbs/Simulator/Delayed-Source-Code/build/bin/cache_aggdelay --trace ./Example/Traces/Synthetic.csv --csize 256 --latency 100000 --outpath ./Results/Synthetic/
+
+Parameters: c=256, l=100000
+Starting:
+Processing: 100000
+Processing: 200000
+Processing: 300000
+Processing: 400000
+Processing: 500000
+Processing: 600000
+Processing: 700000
+Processing: 800000
+Processing: 900000
+Processing: 1000000
+
+Results:
+Algorithm: ADCache
+Total latency: 28844265928
+Full Hit: 500810
+Delayed Hit: 422709
+Miss: 76481
+--------------------
+
+* Running time: 1.98 h
